@@ -1,8 +1,5 @@
 # dendro - hierarchical clustering & dendrograms for any CSV
 
-> **About the repo name:** this repository is called `dendogram`, keeping its original
-> spelling. The correct term is **dendrogram**; the folder is intentionally not renamed so
-> existing links keep working. The tool itself is called `dendro`.
 
 `dendro` is a small, reusable command-line tool that takes **any CSV file** and:
 
@@ -37,8 +34,8 @@
 Requires Python 3.10+.
 
 ```bash
-git clone https://github.com/ariaesm/dendogram.git
-cd dendogram
+git clone https://github.com/ariaesm/dendrogram.git
+cd dendrogram
 pip install .          # installs the `dendro` command
 # or, without installing: pip install -r requirements.txt && python -m dendro ...
 ```
