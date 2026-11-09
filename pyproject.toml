@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "dendro"
+version = "0.1.0"
+description = "Hierarchical clustering + dendrograms for any CSV, with automatic k by silhouette"
+readme = "README.md"
+license = { text = "MIT" }
+authors = [{ name = "Aria Esmaeilzadeh" }]
+requires-python = ">=3.10"
+dependencies = ["numpy", "pandas", "scipy", "scikit-learn", "matplotlib"]
+
+[project.scripts]
+dendro = "dendro.cli:main"
+
+[tool.setuptools]
+packages = ["dendro"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
