@@ -1,6 +1,5 @@
 # dendro - hierarchical clustering & dendrograms for any CSV
 
-
 `dendro` is a small, reusable command-line tool that takes **any CSV file** and:
 
 1. selects the numeric columns (or the ones you name),
